@@ -1,12 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=League+Spartan:wght@700&family=Orbitron:wght@600;900&display=swap');
+
+* {
+  transition: all 0.3s;
+}
+
 .App {
   text-align: center;
-  background-color: #f4f6fc;
+  overflow-x: hidden;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
+.home {
+  font-family: 'League Spartan', sans-serif;
+}
 
 
 @keyframes App-logo-spin {
