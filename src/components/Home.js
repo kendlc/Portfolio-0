@@ -14,8 +14,6 @@ const Home = () => {
         className=" home"
         style={bg}>
 
-
-
         <div className="row d-flex h-100">
             <div className="col-sm-7 align-self-center mt-5 mt-sm-0 mb-sm-5">
                 <h1 className="display-1 d-flex justify-content-center justify-content-sm-end"

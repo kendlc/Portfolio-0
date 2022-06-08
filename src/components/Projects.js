@@ -3,7 +3,7 @@ import React from "react";
 const Projects = () => {
 
     return (
-        <div id="projects" className='container' style={{height: '100vh'}}>
+        <div id="projects" className='container' style={{minHeight: '100vh'}}>
                 <h1 className="display-3 d-flex justify-content-center justify-content-sm-center mb-5"
                 style={{color: '#C7D0D8'}}
                 >Projects</h1>

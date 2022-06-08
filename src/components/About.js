@@ -3,19 +3,19 @@ import React from "react";
 const About = () => {
 
     return (
-        <div id="about" style={{height: '100vh'}}>
+        <div id="about" style={{minHeight: '100vh'}}>
 
 
 
         <div className="row d-flex h-100">
 
-            <div className="col-sm-5 d-flex justify-content-center justify-content-sm-end align-self-center">
+            <div className="col-sm-5 d-flex justify-content-center justify-content-sm-end align-self-center" style={{marginTop: '30vh'}}>
                 <img src="./images/profilephoto.jpeg" alt="Ken" draggable="false" className="img-fluid img-thumbnail"
                 style={{borderRadius: '10rem', width: '20rem'}} />
             </div>
 
             <div className="col-sm-5 align-self-center mt-5 mt-sm-0 mb-sm-5">
-                <div className="container">
+                <div className="container" style={{marginTop: '30vh'}}>
                 <h1 className="display-5 d-flex justify-content-center justify-content-sm-start"
                 style={{color: '#C7D0D8'}}
                 >About</h1>
