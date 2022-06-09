@@ -1,0 +1,11 @@
+.navgtr {
+    background: linear-gradient(#8382DB,#9E9DE3, rgba(255,255,255,0));
+}
+
+@media (max-width: 991.98px) { 
+    .navOffset {
+        background: linear-gradient(#8382DB,#9E9DE3, rgba(255,255,255,0));
+        text-align: justify;
+        font-size: 30px;
+    }
+ }
