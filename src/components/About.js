@@ -9,12 +9,12 @@ const About = () => {
 
         <div className="row d-flex h-100">
             <div className="row">
-                <div className="col-sm-5 d-flex justify-content-center justify-content-sm-end align-self-center" style={{marginTop: '20vh'}}>
+                <div className="col-sm-5 d-flex justify-content-center justify-content-sm-end align-self-center aboutSec" style={{marginTop: '20vh'}}>
                     <img src="./images/profilephoto.jpeg" alt="Ken" draggable="false" className="img-fluid img-thumbnail"
                     style={{borderRadius: '10rem', width: '20rem'}} />
                 </div>
 
-                <div className="col-sm-5 align-self-center mt-5 mt-sm-0 mb-sm-3">
+                <div className="col-sm-5 align-self-center mt-5 mt-sm-0 mb-sm-3 aboutSec">
                     <div className="container" style={{marginTop: '15vh'}}>
                     <h1 className="display-5 d-flex justify-content-center justify-content-sm-start"
                     style={{color: '#C7D0D8'}}
@@ -31,7 +31,7 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className="row "
+                <div className="row skillIcons"
                 style={{marginTop: '1vh'}}>
                     <div className="col-sm-5 d-flex justify-content-center justify-content-sm-end align-self-center container">
                         <h1 className="display-5 d-flex justify-content-center justify-content-sm-start"
@@ -39,61 +39,61 @@ const About = () => {
                         >Tech Stack</h1>
                     </div>
                     <div className="col-sm-7 container">
-                        <div className="row container mt-3 mb-3">
-                            <span style={{width: '9vh'}}>
-                                <img src="./images/skills/javascript.svg" alt="javascript" className="img-fluid"/>
+                        <div className="row container mt-3 mb-3 d-flex justify-content-center justify-content-sm-start">
+                            <span>
+                                <img src="./images/skills/javascript.svg" alt="javascript" className="img-fluid" draggable="false"/>
                             </span>
-                            <span style={{width: '9vh'}}>
-                                <img src="./images/skills/ruby.svg" alt="ruby" className="img-fluid"/>
+                            <span>
+                                <img src="./images/skills/ruby.svg" alt="ruby" className="img-fluid" draggable="false"/>
                             </span>
-                            <span style={{width: '9vh'}}>
-                                <img src="./images/skills/html5.svg" alt="html5" className="img-fluid"/>
+                            <span>
+                                <img src="./images/skills/html5.svg" alt="html5" className="img-fluid" draggable="false"/>
                             </span>
-                            <span style={{width: '9vh'}}>
-                                <img src="./images/skills/css3.svg" alt="css3" className="img-fluid"/>
+                            <span>
+                                <img src="./images/skills/css3.svg" alt="css3" className="img-fluid" draggable="false"/>
                             </span>
-                            <span style={{width: '9vh'}}>
-                                <img src="./images/skills/git.svg" alt="git" className="img-fluid"/>
-                            </span>
-                        </div>
-                        <div className="row container mt-3 mb-3">
-                            <span style={{width: '9vh'}}>
-                                <img src="./images/skills/react.svg" alt="react" className="img-fluid"/>
-                            </span>
-                            <span style={{width: '9vh'}}>
-                                <img src="./images/skills/vue.svg" alt="vue" className="img-fluid"/>
-                            </span>
-                            <span style={{width: '9vh'}}>
-                                <img src="./images/skills/bootstrap.svg" alt="bootstrap" className="img-fluid"/>
-                            </span>
-                            <span style={{width: '9vh'}}>
-                                <img src="./images/skills/semantic.svg" alt="semantic" className="img-fluid"/>
-                            </span>
-                            <span style={{width: '9vh'}}>
-                                <img src="./images/skills/heroku.svg" alt="heroku" className="img-fluid"/>
-                            </span>
-                            <span style={{width: '9vh'}}>
-                                <img src="./images/skills/netlify.svg" alt="netlify" className="img-fluid"/>
+                            <span>
+                                <img src="./images/skills/git.svg" alt="git" className="img-fluid" draggable="false"/>
                             </span>
                         </div>
-                        <div className="row container mt-3 mb-3">
-                            <span style={{width: '9vh'}}>
-                                <img src="./images/skills/node.svg" alt="node" className="img-fluid"/>
+                        <div className="row container mt-3 mb-3 d-flex justify-content-center justify-content-sm-start">
+                            <span>
+                                <img src="./images/skills/react.svg" alt="react" className="img-fluid" draggable="false"/>
                             </span>
-                            <span style={{width: '9vh'}}>
-                                <img src="./images/skills/express.svg" alt="express" className="img-fluid"/>
+                            <span>
+                                <img src="./images/skills/vue.svg" alt="vue" className="img-fluid" draggable="false"/>
                             </span>
-                            <span style={{width: '9vh'}}>
-                                <img src="./images/skills/rails.svg" alt="rails" className="img-fluid"/>
+                            <span>
+                                <img src="./images/skills/bootstrap.svg" alt="bootstrap" className="img-fluid" draggable="false"/>
                             </span>
-                            <span style={{width: '9vh'}}>
-                                <img src="./images/skills/postgresql.svg" alt="postgresql" className="img-fluid"/>
+                            <span>
+                                <img src="./images/skills/semantic.svg" alt="semantic" className="img-fluid" draggable="false"/>
                             </span>
-                            <span style={{width: '9vh'}}>
-                                <img src="./images/skills/mongodb.svg" alt="mongodb" className="img-fluid"/>
+                            <span>
+                                <img src="./images/skills/heroku.svg" alt="heroku" className="img-fluid" draggable="false"/>
                             </span>
-                            <span style={{width: '9vh'}}>
-                                <img src="./images/skills/firebase.svg" alt="firebase" className="img-fluid"/>
+                            <span>
+                                <img src="./images/skills/netlify.svg" alt="netlify" className="img-fluid" draggable="false"/>
+                            </span>
+                        </div>
+                        <div className="row container mt-3 mb-3 d-flex justify-content-center justify-content-sm-start">
+                            <span>
+                                <img src="./images/skills/node.svg" alt="node" className="img-fluid" draggable="false"/>
+                            </span>
+                            <span>
+                                <img src="./images/skills/express.svg" alt="express" className="img-fluid" draggable="false"/>
+                            </span>
+                            <span>
+                                <img src="./images/skills/rails.svg" alt="rails" className="img-fluid" draggable="false"/>
+                            </span>
+                            <span>
+                                <img src="./images/skills/postgresql.svg" alt="postgresql" className="img-fluid" draggable="false"/>
+                            </span>
+                            <span>
+                                <img src="./images/skills/mongodb.svg" alt="mongodb" className="img-fluid" draggable="false"/>
+                            </span>
+                            <span>
+                                <img src="./images/skills/firebase.svg" alt="firebase" className="img-fluid" draggable="false"/>
                             </span>
                         </div>
                     </div>
