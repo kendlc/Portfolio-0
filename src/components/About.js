@@ -53,6 +53,9 @@ const About = () => {
                                 <img src="./images/skills/css3.svg" alt="css3" className="img-fluid" draggable="false"/>
                             </span>
                             <span>
+                                <img src="./images/skills/jquery.svg" alt="jquery" className="img-fluid" draggable="false"/>
+                            </span>
+                            <span>
                                 <img src="./images/skills/git.svg" alt="git" className="img-fluid" draggable="false"/>
                             </span>
                         </div>
