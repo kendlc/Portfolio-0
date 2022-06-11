@@ -4,9 +4,29 @@ const Projects = () => {
 
     return (
         <div id="projects" className='container' style={{minHeight: '100vh'}}>
-                <h1 className="display-3 d-flex justify-content-center justify-content-sm-center mb-5"
-                style={{color: '#C7D0D8'}}
-                >Projects</h1>
+            <div className="row">
+                <div className="col-sm-7" style={{marginTop: '10vh'}}>
+                    <h1 className="display-4 d-flex justify-content-center justify-content-sm-center mb-5"
+                    style={{color: '#C7D0D8'}}
+                    >Featured Projects</h1>
+                </div>
+            </div>
+
+            {/* <div className="row d-flex d-flex justify-content-center">
+                <div className="col-sm-5">
+                    <img src="./images/projects/p0.png" alt="project 0"
+                    className="img-fluid"
+                    />
+                    
+                </div>
+                <div className="col-sm-5">
+                <img src="./images/projects/p1.png" alt="project 0"
+                    className="img-fluid"
+                    style={{marginLeft: '-10rem'}}
+                    />
+                </div>
+            </div> */}
+
             <div className="row d-flex h-50">
                 <div className="col-sm-6 d-flex justify-content-center justify-content-sm-end align-self-center">
                     <div className="card" style={{width: '30rem'}}>
