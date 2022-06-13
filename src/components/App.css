@@ -21,6 +21,16 @@ html {
   width: 9vh;
 }
 
+.floatTextBox {
+  width: 115%;
+  margin-left: -4rem;
+}
+
+.floatTextBoxRight {
+  width: 110%;
+  margin-left: 1.5rem;
+}
+
 @media (max-width: 991.98px) { 
   .skillIcons span {
     width: 8vh;
@@ -49,6 +59,21 @@ html {
   .skillIcons h1 {
     margin-right: 10px;
   }
+
+  .hoverImage {
+    margin-bottom: -170px;
+  }
+
+  .floatTextBox {
+    width: 100%;
+    margin-left: 0rem;
+  }
+
+  .floatTextBoxRight {
+    width: 100%;
+    margin-left: 0rem;
+  }
+
 }
 
 
