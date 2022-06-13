@@ -14,8 +14,6 @@ const Projects = () => {
     return (
         <div id="projects" className='container' style={{minHeight: '100vh'}}>
 
-            
-
             <div className="row">
                 <div className="col-sm-7" style={{marginTop: '10vh'}}>
                     <h1 className="display-4 d-flex justify-content-center justify-content-sm-center mb-5"

@@ -3,9 +3,19 @@ import React from "react";
 const Contact = () => {
 
     return (
-        <div id="contact" style={{height: '100vh'}}>
+        <div id="contact" style={{height: '100vh',marginTop: '10vh'}}>
+
+            <div className="row d-flex h-50">
+                <div className="col-sm-12 d-flex justify-content-center align-self-center"
+                style={{marginTop: '13vh'}}>
+                    <img src="./images/contactme.png" alt="contactme" 
+                    className="img-fluid"/>
+                </div>
+            </div>
+
             
-            <div className="row d-flex h-100">
+            <div className="row d-flex h-50"
+            style={{marginTop: '-8vh'}}>
                 <div className="col-sm-6 d-flex justify-content-center justify-content-sm-end align-self-center">
                     <div className="container">
                         <h1 className="display-5 d-flex justify-content-center justify-content-sm-end"
@@ -14,9 +24,11 @@ const Contact = () => {
                         <h6 className="d-flex justify-content-center justify-content-sm-end text-center text-sm-end lh-base"
                         style={{color: '#47177F'}}
                         >My inbox is always open.</h6>
-                        <h6 className="d-flex justify-content-center justify-content-sm-end text-center text-sm-end lh-base"
-                        style={{color: '#47177F'}}
-                        > Whether you have a question or just want to say hi, I’ll try my best to get back to you!</h6>
+                        <div className="d-flex justify-content-center justify-content-sm-end">
+                            <h6 className="d-flex justify-content-center justify-content-sm-end text-center text-sm-end lh-base"
+                            style={{color: '#47177F', width: '400px'}}
+                            > Whether you have a question or just want to say hi, I’ll try my best to get back to you!</h6>
+                        </div>
                     </div>
                 </div>
                 <div className="col-sm-6 d-flex justify-content-center justify-content-sm-start align-self-center">
@@ -40,9 +52,8 @@ const Contact = () => {
                     </a></li>
                 </ul>
                 </div>
-
-
             </div>
+
         </div>
     );
 }
