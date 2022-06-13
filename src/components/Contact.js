@@ -7,7 +7,7 @@ const Contact = () => {
 
             <div className="row d-flex h-50">
                 <div className="col-sm-12 d-flex justify-content-center align-self-center"
-                style={{marginTop: '13vh'}}>
+                style={{marginTop: '10vh'}}>
                     <img src="./images/contactme.png" alt="contactme" 
                     className="img-fluid"/>
                 </div>
@@ -15,7 +15,7 @@ const Contact = () => {
 
             
             <div className="row d-flex h-50"
-            style={{marginTop: '-8vh'}}>
+            style={{marginTop: '-10vh'}}>
                 <div className="col-sm-6 d-flex justify-content-center justify-content-sm-end align-self-center">
                     <div className="container">
                         <h1 className="display-5 d-flex justify-content-center justify-content-sm-end"
