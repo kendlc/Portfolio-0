@@ -123,11 +123,13 @@ footer {
   .floatTextBox {
     width: 100%;
     margin-left: 0rem;
+    margin-top: 1.5rem;
   }
 
   .floatTextBoxRight {
     width: 100%;
     margin-left: 0rem;
+    margin-top: 1.5rem;
   }
 
   .circle {

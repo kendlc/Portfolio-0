@@ -9,7 +9,7 @@ const Contact = () => {
                 <div className="col-sm-12 d-flex justify-content-center align-self-center"
                 style={{marginTop: '15vh'}}>
                     <img src="./images/contactme.png" alt="contactme" draggable="false"
-                    style={{height: '45vh'}}
+                    style={{width: '65vh'}}
                     className="img-fluid"/>
                 </div>
             </div>
