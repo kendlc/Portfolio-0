@@ -7,7 +7,7 @@ const About = () => {
 
 
 
-        <div className="row d-flex h-100">
+        <div className="row d-flex h-100 wrap">
             <div className="row">
                 <div className="col-sm-5 d-flex justify-content-center justify-content-sm-end align-self-center aboutSec" style={{marginTop: '20vh'}}>
                     <img src="./images/profilephoto.jpeg" alt="Ken" draggable="false" className="img-fluid img-thumbnail"
@@ -29,6 +29,8 @@ const About = () => {
                     style={{color: '#47177F'}}
                     >As a career change Software Engineer, I am passionate in Full Stack Development. I like working in databases and building user-facing websites. I am driven to fully understand projects I work on thus I take the opportunity to learn more technologies and grow my knowledge on the industry. </h6>
                     </div>
+                    <img src="./images/circle2.png" alt="circle2" draggable="false"
+                    className="circle2 d-none d-sm-block"/>
                 </div>
 
                 <div className="row skillIcons"

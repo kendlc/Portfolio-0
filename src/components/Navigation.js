@@ -45,7 +45,7 @@ const Navigation = () => {
                         <li className="nav-item">
                             <a className="nav-link" aria-current="page" href="./KenDelaCruz-Resume.pdf" download>
                                 <img src="./images/svg/file-earmark-pdf.svg" width={25} alt="About" className="mb-1 mx-1"/>
-                                <span className="mx-2 text-light">CV</span>
+                                <span className="mx-2 text-light">Resume</span>
                             </a>
                         </li>
                     </ul>
