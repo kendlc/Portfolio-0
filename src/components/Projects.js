@@ -7,8 +7,8 @@ const Projects = () => {
     const [showDemoP3, setShowDemoP3] = useState(false);
     const [showGifP0, setShowGifP0] = useState('./images/projects/srp0.gif');
     const [showGifP1, setShowGifP1] = useState('./images/projects/srp1.gif');
-    const [showGifP2, setShowGifP2] = useState('./images/projects/srp1.gif');
-    const [showGifP3, setShowGifP3] = useState('./images/projects/srp1.gif');
+    const [showGifP2, setShowGifP2] = useState('./images/projects/srp2.gif');
+    const [showGifP3, setShowGifP3] = useState('./images/projects/srp3.gif');
 
 
     return (
