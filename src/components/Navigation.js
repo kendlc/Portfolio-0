@@ -24,6 +24,7 @@ const Navigation = () => {
                     </div>
                     <div className="offcanvas-body">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end flex-grow-1 pe-3">
+                        {/* To add collapse function when link is clicked */}
                         <li className="nav-item ">
                             <a className="nav-link" aria-current="page" href="#about">
                                 <img src="./images/svg/person.svg" width={25} alt="About" className="mb-1 mx-1"/>
