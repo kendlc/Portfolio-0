@@ -24,28 +24,27 @@ const Navigation = () => {
                     </div>
                     <div className="offcanvas-body">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end flex-grow-1 pe-3">
-                        {/* To add collapse function when link is clicked */}
-                        <li className="nav-item ">
-                            <a className="nav-link" aria-current="page" href="#about">
+                        <li className="nav-item">
+                            <a className="nav-link " aria-current="page" href="#about" >
                                 <img src="./images/svg/person.svg" width={25} alt="About" className="mb-1 mx-1"/>
                                 <span className="mx-2 text-light">About</span>
-                                </a>
+                            </a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" aria-current="page" href="#projects">
-                                <img src="./images/svg/file-earmark-code.svg" width={25} alt="About" className="mb-1 mx-1"/>
+                                <img src="./images/svg/file-earmark-code.svg" width={25} alt="Projects" className="mb-1 mx-1"/>
                                 <span className="mx-2 text-light">Projects</span>
                             </a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" aria-current="page" href="#contact">
-                                <img src="./images/svg/chat-left-dots.svg" width={25} alt="About" className="mb-1 mx-1"/>
+                                <img src="./images/svg/chat-left-dots.svg" width={25} alt="Contacts" className="mb-1 mx-1"/>
                                 <span className="mx-2 text-light">Contact</span>
                             </a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" aria-current="page" href="./KenDelaCruz-Resume.pdf" download>
-                                <img src="./images/svg/file-earmark-pdf.svg" width={25} alt="About" className="mb-1 mx-1"/>
+                                <img src="./images/svg/file-earmark-pdf.svg" width={25} alt="Resume" className="mb-1 mx-1"/>
                                 <span className="mx-2 text-light">Resume</span>
                             </a>
                         </li>
