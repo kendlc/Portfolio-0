@@ -15,6 +15,14 @@ const Projects = () => {
         <div className="wrap">
             <div id="projects" className='container' style={{minHeight: '100vh'}}>
 
+                <div style={{display: 'none'}}>
+                    <img src="./images/projects/srp0.gif" alt="p"/>
+                    <img src="./images/projects/srp1.gif" alt="p"/>
+                    <img src="./images/projects/srp2.gif" alt="p"/>
+                    <img src="./images/projects/srp3.gif" alt="p"/>
+                </div>
+
+                
                 <div className="row">
                     <div className="col-sm-7" style={{marginTop: '10vh'}}>
                         <h1 className="display-4 d-flex justify-content-center justify-content-sm-center mb-5"
