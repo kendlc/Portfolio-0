@@ -31,7 +31,7 @@ const Navigation = () => {
                         <li className="nav-item"
                         // onClick={ () => setVisib('none')}
                         >
-                            <a className="nav-link text-reset" aria-current="page" href="#about" data-bs-dismiss="offcanvas">
+                            <a className="nav-link" aria-current="page" href="#about">
                                     <img src="./images/svg/person.svg" width={25} alt="About" className="mb-1 mx-1"/>
                                     <span className="mx-2 text-light">About</span>
                             </a>
