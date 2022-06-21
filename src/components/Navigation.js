@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Navigation.css";
 
 const Navigation = () => {
-    const [visib, setVisib] = useState('');
+    // const [visib, setVisib] = useState('');
 
     return (
         <div>
@@ -31,7 +31,7 @@ const Navigation = () => {
                         <li className="nav-item"
                         // onClick={ () => setVisib('none')}
                         >
-                            <a className="nav-link " aria-current="page" href="#about">
+                            <a className="nav-link text-reset" aria-current="page" href="#about" data-bs-dismiss="offcanvas">
                                     <img src="./images/svg/person.svg" width={25} alt="About" className="mb-1 mx-1"/>
                                     <span className="mx-2 text-light">About</span>
                             </a>
