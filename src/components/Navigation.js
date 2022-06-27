@@ -6,7 +6,9 @@ const Navigation = () => {
 
     return (
         <div>
-            <nav className="navgtr navbar navbar-expand-lg fixed-top bgOnSmall"
+            <nav 
+            id="navPort"
+            className="navgtr navbar navbar-expand-lg fixed-top bgOnSmall"
             style={{fontSize: '20px', fontWeight: 'bold', height: '100px'}}>
                 <div className="container container-fluid" style={{marginTop: '-25px'}}>
                     <a className="navbar-brand" href="/">
