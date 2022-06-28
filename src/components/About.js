@@ -27,7 +27,7 @@ const About = () => {
                     >I’m a Software Engineer with a background in electrical engineering and project management. As an engineering professional with 2 years of experience in electrical system design and implementation, I was able to hone my skills in problem solving. It also gave me the opportunity to wear many different hats on various projects for which inspired me to study project management.</h6>
                     <h6 className="d-flex justify-content-center justify-content-sm-start text-center text-sm-start lh-base"
                     style={{color: '#47177F'}}
-                    >As a career change Software Engineer, I am passionate in Full Stack Development. I like working in databases and building user-facing websites. I am driven to fully understand projects I work on thus I take the opportunity to learn more technologies and grow my knowledge on the industry. </h6>
+                    >As a career change Software Engineer, I am passionate in Full Stack Development. I like working with databases and building user-facing websites. I am driven to fully understand projects I work on thus I take the opportunity to learn more technologies and grow my knowledge on the industry. </h6>
                     </div>
                     <img src="./images/circle2.png" alt="circle2" draggable="false"
                     className="circle2 d-none d-sm-block"/>
