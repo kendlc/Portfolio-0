@@ -18,7 +18,6 @@ const Navigation = () => {
                     <span className="navbar-toggler-icon"></span>
                     </button>
 
-
                     <div className="offcanvas offcanvas-end navOffset" tabIndex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel"
                     >
                     <div className="offcanvas-header">
