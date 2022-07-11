@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
 
     return (
-        <div style={{minHeight: '100vh'}}>
+        <div id="about" style={{minHeight: '100vh'}}>
             <div className="row d-flex h-100 wrap">
                 <div className="row">
                     <div className="col-sm-5 d-flex justify-content-center justify-content-sm-end align-self-center aboutSec" style={{marginTop: '20vh'}}>
