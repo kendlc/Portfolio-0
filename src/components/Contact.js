@@ -5,7 +5,9 @@ const Contact = () => {
     return (
         <div id="contact" style={{height: '100vh',marginTop: '10vh'}}>
 
-            <div className="row d-flex h-50">
+            <div className="row d-flex h-50" 
+            data-aos="fade-up"
+            data-aos-duration="1500">
                 <div className="col-sm-12 d-flex justify-content-center align-self-center"
                 style={{marginTop: '15vh'}}>
                     <img src="./images/contactme.png" alt="contactme" draggable="false"
@@ -16,7 +18,9 @@ const Contact = () => {
 
             
             <div className="row d-flex h-50"
-            style={{marginTop: '-5vh'}}>
+            style={{marginTop: '-5vh'}}
+            data-aos="fade-up"
+            data-aos-duration="1800">
                 <div className="col-sm-6 d-flex justify-content-center justify-content-sm-end align-self-center">
                     <div className="container">
                         <h1 className="display-5 d-flex justify-content-center justify-content-sm-end"

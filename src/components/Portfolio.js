@@ -8,7 +8,7 @@ import Projects from "./Projects";
 const Portfolio = () => {
 
     return (
-        <div data-bs-spy="scroll" data-bs-target="#navPort" tabindex="0">
+        <div>
             <Navigation />
             <Home />
             <About />

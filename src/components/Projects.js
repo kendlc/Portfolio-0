@@ -22,7 +22,6 @@ const Projects = () => {
                     <img src="./images/projects/srp3.gif" alt="p"/>
                 </div>
 
-                
                 <div className="row">
                     <div className="col-sm-7" style={{marginTop: '10vh'}}>
                         <h1 className="display-4 d-flex justify-content-center justify-content-sm-center mb-5"
@@ -31,7 +30,9 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className="row d-flex d-flex justify-content-center mt-4">
+                <div className="row d-flex d-flex justify-content-center mt-4"
+                data-aos="fade-right"
+                data-aos-duration="1000">
                     <h2 className="d-inline d-sm-none"
                     style={{color: '#47177F'}}>
                         : 3 Pokemon Quizzr
@@ -106,7 +107,9 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className="row d-flex d-flex justify-content-center mt-5">
+                <div className="row d-flex d-flex justify-content-center mt-5"
+                data-aos="fade-left"
+                data-aos-duration="1000">
                     <h2 className="d-inline d-sm-none"
                     style={{color: '#47177F'}}>
                         : 2 Expense Trackr
@@ -217,7 +220,9 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className="row d-flex d-flex justify-content-center mt-5">
+                <div className="row d-flex d-flex justify-content-center mt-5"
+                data-aos="fade-right"
+                data-aos-duration="1000">
                     <h2 className="d-inline d-sm-none"
                     style={{color: '#47177F'}}>
                         : 1 Manga-Shoppu
@@ -291,7 +296,9 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className="row d-flex d-flex justify-content-center mt-5">
+                <div className="row d-flex d-flex justify-content-center mt-5"
+                data-aos="fade-left"
+                data-aos-duration="1000">
                     <h2 className="d-inline d-sm-none"
                     style={{color: '#47177F'}}>
                         : 0 Sumi-e TicTacToe

@@ -8,11 +8,13 @@ const About = () => {
                 <div className="row">
                     <div className="col-sm-5 d-flex justify-content-center justify-content-sm-end align-self-center aboutSec" style={{marginTop: '20vh'}}>
                         <img src="./images/profilephoto.jpeg" alt="Ken" draggable="false" className="img-fluid img-thumbnail"
-                        style={{borderRadius: '10rem', width: '20rem'}} />
+                        style={{borderRadius: '10rem', width: '20rem'}} 
+                        data-aos="zoom-in-right"/>
                     </div>
 
                     <div className="col-sm-5 align-self-center mt-5 mt-sm-0 mb-sm-3 aboutSec">
-                        <div className="container" style={{marginTop: '15vh'}}>
+                        <div className="container" style={{marginTop: '15vh'}}
+                        data-aos="zoom-in-left">
                         <h1 className="display-5 d-flex justify-content-center justify-content-sm-start"
                         style={{color: '#C7D0D8'}}
                         >About</h1>
@@ -31,7 +33,8 @@ const About = () => {
                     </div>
 
                     <div className="row skillIcons"
-                    style={{marginTop: '1vh'}}>
+                    style={{marginTop: '1vh'}}
+                    data-aos="fade-up">
                         <div className="col-sm-5 d-flex justify-content-center justify-content-sm-end align-self-center container">
                             <h1 className="display-5 d-flex justify-content-center justify-content-sm-start"
                             style={{color: '#C7D0D8'}}

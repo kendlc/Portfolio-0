@@ -1,11 +1,31 @@
 .navgtr {
     background: linear-gradient(#8382DB,#9E9DE3, rgba(255,255,255,0));
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navCont {
+    margin-bottom: 30px;
+}
+
+.navHeight {
+    min-height: 100px;
 }
 
 @media (max-width: 991.98px) { 
-    .navOffset {
-        background: linear-gradient(#8382DB,#9E9DE3, rgba(255,255,255,0));
-        text-align: justify;
-        font-size: 30px;
+    .navgtr {
+        font-size: 25px;
+    }
+
+    .lastNavItem {
+        height: 250px;
+    }
+
+    .navCont {
+        margin-bottom: 40px;
+    }
+
+    .navHeight {
+        min-height: 100px;
     }
  }
