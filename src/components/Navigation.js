@@ -9,7 +9,7 @@ const Navigation = () => {
         <Navbar collapseOnSelect expand="lg"
         className="navgtr fixed-top fixed-top navHeight">
             <Container className="navCont">
-                <Navbar.Brand href="#home" data-aos="fade-right">
+                <Navbar.Brand href="/" data-aos="fade-right">
                     <img src="./images/icon.png" width={45} alt="ken"/>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
