@@ -7,7 +7,8 @@ const Navigation = () => {
 
     return (
         <Navbar collapseOnSelect expand="lg"
-        className="navgtr fixed-top fixed-top navHeight">
+        className="navgtr fixed-top fixed-top navHeight"
+        data-aos="fade-in">
             <Container className="navCont">
                 <Navbar.Brand href="/" data-aos="fade-right">
                     <img src="./images/icon.png" width={45} alt="ken"/>

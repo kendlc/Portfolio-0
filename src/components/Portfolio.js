@@ -8,14 +8,17 @@ import Projects from "./Projects";
 const Portfolio = () => {
     const [delay, setDelay] = useState(false);
     const [isLoading, setIsLoading] = useState(true);
+    const [hide, setHide] = useState('visible');
+
 
     useEffect( () => {
         setTimeout( () => {
             setDelay(true);
         },100)
+    
         setTimeout( () => {
             setIsLoading(false);
-        }, 2100)
+        }, 1800)
     },[]);
 
     return (

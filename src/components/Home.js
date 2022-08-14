@@ -5,14 +5,15 @@ const Home = () => {
     const bg = {
         height: `100vh`,
         background: 'url("./images/bg1.png") no-repeat 50% 99%',
-        backgroundSize: 'cover'
+        backgroundSize: 'cover',
     }
 
     return (
         <div 
         id="home"
         className=" home"
-        style={bg}>
+        style={bg}
+        data-aos="fade-in">
 
         <div className="row d-flex h-100">
             <div className="col-sm-7 align-self-center mt-5 mt-sm-0 mb-sm-5 wrap">
