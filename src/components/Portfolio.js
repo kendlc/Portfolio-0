@@ -13,7 +13,7 @@ const Portfolio = () => {
     useEffect( () => {
         setTimeout( () => {
             setDelay(true);
-        },100)
+        },500)
     
         setTimeout( () => {
             setIsLoading(false);
