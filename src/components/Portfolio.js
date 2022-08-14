@@ -8,7 +8,6 @@ import Projects from "./Projects";
 const Portfolio = () => {
     const [delay, setDelay] = useState(false);
     const [isLoading, setIsLoading] = useState(true);
-    const [hide, setHide] = useState('visible');
 
 
     useEffect( () => {
