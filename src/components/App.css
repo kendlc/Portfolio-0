@@ -87,6 +87,8 @@ footer {
 
   .loadingIcon {
     animation: bounce-out 2s ease infinite;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
   }
 }
 
