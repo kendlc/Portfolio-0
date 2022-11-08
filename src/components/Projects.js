@@ -95,12 +95,12 @@ const Projects = () => {
                                 <a href="https://github.com/kendlc/Project3-Pokequizzr" 
                                 className="mx-2" target="_blank" rel="noreferrer">
                                     <img src="./images/svg/github.svg" 
-                                    width={25} alt="Github" draggable="false"/>
+                                    width={25} alt="Github" draggable="false" className="linkButtons"/>
                                 </a>
                                 <a href="https://pokemon-quizzr.netlify.app/" 
                                 className="mx-2" target="_blank" rel="noreferrer">
                                     <img src="./images/svg/demo.svg" 
-                                    width={25}alt="Live Site" draggable="false"/>
+                                    width={25}alt="Live Site" draggable="false" className="linkButtons"/>
                                 </a>
                             </p>
                         </div>
@@ -171,12 +171,12 @@ const Projects = () => {
                                 <a href="https://github.com/kendlc/Project2-Expense-Trackr-Client" 
                                 className="mx-2" target="_blank" rel="noreferrer">
                                     <img src="./images/svg/github.svg" 
-                                    width={25} alt="Github" draggable="false"/>
+                                    width={25} alt="Github" draggable="false" className="linkButtons"/>
                                 </a>
                                 <a href="https://expense-trackr0.netlify.app/" 
                                 className="mx-2" target="_blank" rel="noreferrer">
                                     <img src="./images/svg/demo.svg" 
-                                    width={25} alt="Live Site" draggable="false"/>
+                                    width={25} alt="Live Site" draggable="false" className="linkButtons"/>
                                 </a>
                             </p>
                         </div>
@@ -284,12 +284,12 @@ const Projects = () => {
                                 <a href="https://github.com/kendlc/Project0-Tictactoe" 
                                 className="mx-2" target="_blank" rel="noreferrer">
                                     <img src="./images/svg/github.svg" 
-                                    width={25} alt="Github" draggable="false"/>
+                                    width={25} alt="Github" draggable="false" className="linkButtons"/>
                                 </a>
                                 <a href="https://kendlc.github.io/Project0-Tictactoe/" 
                                 className="mx-2" target="_blank" rel="noreferrer">
                                     <img src="./images/svg/demo.svg" 
-                                    width={25}alt="Live Site" draggable="false"/>
+                                    width={25}alt="Live Site" draggable="false" className="linkButtons"/>
                                 </a>
                             </p>
                         </div>
@@ -360,12 +360,12 @@ const Projects = () => {
                                 <a href="https://github.com/kendlc/Project0-Tictactoe" 
                                 className="mx-2" target="_blank" rel="noreferrer">
                                     <img src="./images/svg/github.svg" 
-                                    width={25} alt="Github" draggable="false"/>
+                                    width={25} alt="Github" draggable="false" className="linkButtons"/>
                                 </a>
                                 <a href="https://kendlc.github.io/Project0-Tictactoe/" 
                                 className="mx-2" target="_blank" rel="noreferrer">
                                     <img src="./images/svg/demo.svg" 
-                                    width={25} alt="Live Site" draggable="false"/>
+                                    width={25} alt="Live Site" draggable="false" className="linkButtons"/>
                                 </a>
                             </p>
                         </div>

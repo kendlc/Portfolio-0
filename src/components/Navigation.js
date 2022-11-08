@@ -11,20 +11,20 @@ const Navigation = () => {
         data-aos="fade-in">
             <Container className="navCont">
                 <Navbar.Brand href="/" data-aos="fade-right">
-                    <img src="./images/icon.png" width={45} alt="ken"/>
+                    <img src="./images/icon.png" width={45} alt="ken" className="navButtons"/>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto mb-2 mb-lg-0 justify-content-end flex-grow-1 pe-3" data-aos="fade-left">
-                        <Nav.Link href="#about">
+                        <Nav.Link className="navButtons" href="#about">
                             <img src="./images/svg/person.svg" width={25} alt="About" className="mb-1 mx-1"/>
                             <span className="mx-2 text-light">About</span>
                         </Nav.Link>
-                        <Nav.Link href="#projects">
+                        <Nav.Link className="navButtons" href="#projects">
                             <img src="./images/svg/file-earmark-code.svg" width={25} alt="Projects" className="mb-1 mx-1"/>
                             <span className="mx-2 text-light">Projects</span>
                         </Nav.Link>
-                        <Nav.Link href="#contact">
+                        <Nav.Link className="navButtons" href="#contact">
                             <img src="./images/svg/chat-left-dots.svg" width={25} alt="Contacts" className="mb-1 mx-1"/>
                             <span className="mx-2 text-light">Contact</span>
                         </Nav.Link>

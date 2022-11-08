@@ -43,7 +43,10 @@ const About = () => {
                         <div className="col-sm-7 container">
                             <div className="row container mt-3 mb-3 d-flex justify-content-center justify-content-sm-start">
                                 <span>
-                                    <img src="./images/skills/javascript.svg" alt="javascript" className="img-fluid" draggable="false"/>
+                                    <img src="./images/skills/javascript.svg" alt="javascript" className="img-fluid linkButtons" draggable="false"/>
+                                </span>
+                                <span>
+                                    <img src="./images/skills/typescript.svg" alt="typescript" className="img-fluid" draggable="false"/>
                                 </span>
                                 <span>
                                     <img src="./images/skills/ruby.svg" alt="ruby" className="img-fluid" draggable="false"/>
