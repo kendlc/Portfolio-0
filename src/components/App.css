@@ -100,6 +100,29 @@ footer {
     transition: all 0.3s;
     transform: scale(1.2);
   }
+
+  .techStackIcons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .techStackName{
+    display: none;
+    color: #47177F;
+    text-align: center;
+    font-size: 10;
+  }
+
+  .techStackIcons:hover {
+    transition: all 0.3s;
+    transform: scale(1.2);
+  }
+
+  .techStackIcons:hover .techStackName {
+    display: inline;
+  }
 }
 
 

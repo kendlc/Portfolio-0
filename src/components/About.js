@@ -13,7 +13,7 @@ const About = () => {
                     </div>
 
                     <div className="col-sm-5 align-self-center mt-5 mt-sm-0 mb-sm-3 aboutSec">
-                        <div className="container" style={{marginTop: '15vh'}}
+                        <div className="container" style={{marginTop: '9vh'}}
                         data-aos="zoom-in-left">
                         <h1 className="display-5 d-flex justify-content-center justify-content-sm-start"
                         style={{color: '#C7D0D8'}}
@@ -32,8 +32,8 @@ const About = () => {
                         className="circle2 d-none d-sm-block"/>
                     </div>
 
-                    <div className="row skillIcons"
-                    style={{marginTop: '1vh'}}
+                    <div className="row skillIcons mt-3 mt-sm-0"
+                    // style={{marginTop: '-1vh'}}
                     data-aos="fade-up">
                         <div className="col-sm-5 d-flex justify-content-center justify-content-sm-end align-self-center container">
                             <h1 className="display-5 d-flex justify-content-center justify-content-sm-start"
@@ -41,66 +41,85 @@ const About = () => {
                             >Tech Stack</h1>
                         </div>
                         <div className="col-sm-7 container">
-                            <div className="row container mt-3 mb-3 d-flex justify-content-center justify-content-sm-start">
-                                <span>
-                                    <img src="./images/skills/javascript.svg" alt="javascript" className="img-fluid linkButtons" draggable="false"/>
+                            <div className="row container mt-3 mb-3 d-flex justify-content-center justify-content-sm-start align-items-end" style={{height: 56}}>
+                                <span className="techStackIcons">
+                                    <span className="techStackName" style={{fontSize: 10}}>Javascript</span>  
+                                    <img src="./images/skills/javascript.svg" alt="javascript" className="img-fluid" draggable="false"/>
                                 </span>
-                                <span>
+                                <span className="techStackIcons">
+                                    <span className="techStackName" style={{fontSize: 10}}>Typescript</span> 
                                     <img src="./images/skills/typescript.svg" alt="typescript" className="img-fluid" draggable="false"/>
                                 </span>
-                                <span>
+                                <span className="techStackIcons">
+                                    <span className="techStackName" style={{fontSize: 10}}>Ruby</span> 
                                     <img src="./images/skills/ruby.svg" alt="ruby" className="img-fluid" draggable="false"/>
                                 </span>
-                                <span>
+                                <span className="techStackIcons">
+                                    <span className="techStackName" style={{fontSize: 10}}>HTML</span> 
                                     <img src="./images/skills/html5.svg" alt="html5" className="img-fluid" draggable="false"/>
                                 </span>
-                                <span>
+                                <span className="techStackIcons">
+                                    <span className="techStackName" style={{fontSize: 10}}>CSS</span> 
                                     <img src="./images/skills/css3.svg" alt="css3" className="img-fluid" draggable="false"/>
                                 </span>
-                                <span>
+                                <span className="techStackIcons">
+                                    <span className="techStackName" style={{fontSize: 10}}>Jquery</span> 
                                     <img src="./images/skills/jquery.svg" alt="jquery" className="img-fluid" draggable="false"/>
                                 </span>
-                                <span>
+                                <span className="techStackIcons">
+                                    <span className="techStackName" style={{fontSize: 10}}>Git</span> 
                                     <img src="./images/skills/git.svg" alt="git" className="img-fluid" draggable="false"/>
                                 </span>
                             </div>
-                            <div className="row container mt-3 mb-3 d-flex justify-content-center justify-content-sm-start">
-                                <span>
+                            <div className="row container mt-3 mb-3 d-flex justify-content-center justify-content-sm-start" style={{height: 56}}>
+                                <span className="techStackIcons">
+                                    <span className="techStackName" style={{fontSize: 10}}>React</span> 
                                     <img src="./images/skills/react.svg" alt="react" className="img-fluid" draggable="false"/>
                                 </span>
-                                <span>
+                                <span className="techStackIcons">
+                                    <span className="techStackName" style={{fontSize: 10}}>Vue</span> 
                                     <img src="./images/skills/vue.svg" alt="vue" className="img-fluid" draggable="false"/>
                                 </span>
-                                <span>
+                                <span className="techStackIcons">
+                                    <span className="techStackName" style={{fontSize: 10}}>Bootstrap</span> 
                                     <img src="./images/skills/bootstrap.svg" alt="bootstrap" className="img-fluid" draggable="false"/>
                                 </span>
-                                <span>
+                                <span className="techStackIcons">
+                                    <span className="techStackName" style={{fontSize: 10}}>Semantic</span> 
                                     <img src="./images/skills/semantic.svg" alt="semantic" className="img-fluid" draggable="false"/>
                                 </span>
-                                <span>
+                                <span className="techStackIcons">
+                                    <span className="techStackName" style={{fontSize: 10}}>Heroku</span> 
                                     <img src="./images/skills/heroku.svg" alt="heroku" className="img-fluid" draggable="false"/>
                                 </span>
-                                <span>
+                                <span className="techStackIcons">
+                                    <span className="techStackName" style={{fontSize: 10}}>Netlify</span> 
                                     <img src="./images/skills/netlify.svg" alt="netlify" className="img-fluid" draggable="false"/>
                                 </span>
                             </div>
-                            <div className="row container mt-3 mb-3 d-flex justify-content-center justify-content-sm-start">
-                                <span>
+                            <div className="row container mt-3 mb-3 d-flex justify-content-center justify-content-sm-start" style={{height: 60}}>
+                                <span className="techStackIcons">
+                                    <span className="techStackName" style={{fontSize: 10}}>NodeJS</span> 
                                     <img src="./images/skills/node.svg" alt="node" className="img-fluid" draggable="false"/>
                                 </span>
-                                <span>
+                                <span className="techStackIcons">
+                                    <span className="techStackName" style={{fontSize: 10}}>ExpressJS</span> 
                                     <img src="./images/skills/express.svg" alt="express" className="img-fluid" draggable="false"/>
                                 </span>
-                                <span>
+                                <span className="techStackIcons">
+                                    <span className="techStackName" style={{fontSize: 10}}>Rails</span> 
                                     <img src="./images/skills/rails.svg" alt="rails" className="img-fluid" draggable="false"/>
                                 </span>
-                                <span>
+                                <span className="techStackIcons">
+                                    <span className="techStackName" style={{fontSize: 10}}>PostgreSQL</span> 
                                     <img src="./images/skills/postgresql.svg" alt="postgresql" className="img-fluid" draggable="false"/>
                                 </span>
-                                <span>
+                                <span className="techStackIcons">
+                                    <span className="techStackName" style={{fontSize: 10}}>MongoDB</span> 
                                     <img src="./images/skills/mongodb.svg" alt="mongodb" className="img-fluid" draggable="false"/>
                                 </span>
-                                <span>
+                                <span className="techStackIcons">
+                                    <span className="techStackName" style={{fontSize: 10}}>Firebase</span> 
                                     <img src="./images/skills/firebase.svg" alt="firebase" className="img-fluid" draggable="false"/>
                                 </span>
                             </div>
