@@ -41,7 +41,7 @@ const About = () => {
                             >Tech Stack</h1>
                         </div>
                         <div className="col-sm-7 container">
-                            <div className="row container mt-3 mb-3 d-flex justify-content-center justify-content-sm-start align-items-end" style={{height: 56}}>
+                            <div className="row container mt-3 mb-3 d-flex justify-content-center justify-content-sm-start align-items-end" style={{ minHeight: 56, height: '6vh' }}>
                                 <span className="techStackIcons">
                                     <span className="techStackName" style={{fontSize: 10}}>Javascript</span>  
                                     <img src="./images/skills/javascript.svg" alt="javascript" className="img-fluid" draggable="false"/>
@@ -62,16 +62,16 @@ const About = () => {
                                     <span className="techStackName" style={{fontSize: 10}}>CSS</span> 
                                     <img src="./images/skills/css3.svg" alt="css3" className="img-fluid" draggable="false"/>
                                 </span>
-                                <span className="techStackIcons">
+                                {/* <span className="techStackIcons">
                                     <span className="techStackName" style={{fontSize: 10}}>Jquery</span> 
                                     <img src="./images/skills/jquery.svg" alt="jquery" className="img-fluid" draggable="false"/>
-                                </span>
+                                </span> */}
                                 <span className="techStackIcons">
                                     <span className="techStackName" style={{fontSize: 10}}>Git</span> 
                                     <img src="./images/skills/git.svg" alt="git" className="img-fluid" draggable="false"/>
                                 </span>
                             </div>
-                            <div className="row container mt-3 mb-3 d-flex justify-content-center justify-content-sm-start" style={{height: 56}}>
+                            <div className="row container mt-3 mb-3 d-flex justify-content-center justify-content-sm-start" style={{minHeight: 56, height: '6vh'}}>
                                 <span className="techStackIcons">
                                     <span className="techStackName" style={{fontSize: 10}}>React</span> 
                                     <img src="./images/skills/react.svg" alt="react" className="img-fluid" draggable="false"/>
@@ -97,7 +97,7 @@ const About = () => {
                                     <img src="./images/skills/netlify.svg" alt="netlify" className="img-fluid" draggable="false"/>
                                 </span>
                             </div>
-                            <div className="row container mt-3 mb-3 d-flex justify-content-center justify-content-sm-start" style={{height: 60}}>
+                            <div className="row container mt-3 mb-3 d-flex justify-content-center justify-content-sm-start" style={{minHeight: 60, height: '6vh'}}>
                                 <span className="techStackIcons">
                                     <span className="techStackName" style={{fontSize: 10}}>NodeJS</span> 
                                     <img src="./images/skills/node.svg" alt="node" className="img-fluid" draggable="false"/>

@@ -19,6 +19,7 @@ html {
 
 .skillIcons span {
   width: 9vh;
+  max-width: 80px;
 }
 
 .floatTextBox {
@@ -72,6 +73,39 @@ footer {
   margin-bottom: -10px;
 }
 
+.navButtons:hover, .lastNavItem:hover {
+  transition: all 0.3s;
+  transform: scale(1.1);
+}
+
+.linkButtons:hover {
+  transition: all 0.3s;
+  transform: scale(1.2);
+}
+
+.techStackIcons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.techStackName{
+  display: none;
+  color: #47177F;
+  text-align: center;
+  font-size: 10;
+}
+
+.techStackIcons:hover {
+  transition: all 0.3s;
+  transform: scale(1.2);
+}
+
+.techStackIcons:hover .techStackName {
+  display: inline;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .circle {
     animation: App-logo-spin infinite 20s linear;
@@ -89,39 +123,6 @@ footer {
     animation: bounce-out 2s ease infinite;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-  }
-
-  .navButtons:hover, .lastNavItem:hover {
-    transition: all 0.3s;
-    transform: scale(1.1);
-  }
-
-  .linkButtons:hover {
-    transition: all 0.3s;
-    transform: scale(1.2);
-  }
-
-  .techStackIcons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-  }
-
-  .techStackName{
-    display: none;
-    color: #47177F;
-    text-align: center;
-    font-size: 10;
-  }
-
-  .techStackIcons:hover {
-    transition: all 0.3s;
-    transform: scale(1.2);
-  }
-
-  .techStackIcons:hover .techStackName {
-    display: inline;
   }
 }
 
