@@ -18,8 +18,9 @@ html {
 }
 
 .skillIcons span {
-  width: 9vh;
-  max-width: 80px;
+  width: 55px;
+  margin-right: -7px;
+  margin-left: -7px;
 }
 
 .floatTextBox {
@@ -127,11 +128,23 @@ footer {
   }
 }
 
-@media (max-width: 991.98px) {
+@media (min-width: 768px) {
   .skillIcons span {
-    width: 8vh;
-    margin-right: -7px;
-    margin-left: -7px;
+    width: 58px;
+    max-width: 80px;
+    margin: 0px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .skillIcons span {
+    width: 75px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .skillIcons span {
+    width: 9vh;
   }
 }
 
