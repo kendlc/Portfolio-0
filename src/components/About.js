@@ -41,23 +41,26 @@ const About = () => {
                 className="d-flex justify-content-center justify-content-sm-start text-center text-sm-start lh-base"
                 style={{ color: "#47177F" }}
               >
-                I’m a Software Engineer with a background in electrical
-                engineering and project management. As an engineering
-                professional with years of experience in electrical system
-                design and implementation, I was able to hone my skills in
-                problem solving. It also gave me the opportunity to wear many
-                different hats on various projects for which inspired me to
-                study project management.
+                As a seasoned professional with a background in electrical
+                engineering and project management, my journey into the realm of
+                Software Engineering has been both enriching and dynamic. Over
+                the years, my experience in electrical system design and
+                implementation has honed my problem-solving skills and allowed
+                me to wear various hats on diverse projects. This exposure
+                inspired my pursuit of project management, where I delved into
+                the intricacies of overseeing multifaceted endeavors.
               </h6>
               <h6
                 className="d-flex justify-content-center justify-content-sm-start text-center text-sm-start lh-base"
                 style={{ color: "#47177F" }}
               >
-                As a career change Software Engineer, I am passionate in Full
-                Stack Development. I enjoy working with databases, APIs and user
-                interfaces on different platforms. I am driven to fully
-                understand projects I work on thus I take the opportunity to
-                learn more technologies and grow my knowledge on the industry.{" "}
+                In my role as a Software Engineer, I've found my passion in Full
+                Stack Development. My enthusiasm extends to working with
+                databases, APIs, and crafting user interfaces across different
+                platforms. I am committed to gaining a comprehensive
+                understanding of the projects I undertake, leveraging each
+                opportunity to delve into new technologies and expand my
+                industry knowledge.
               </h6>
             </div>
             <img
