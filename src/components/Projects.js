@@ -380,7 +380,7 @@ const Projects = () => {
           >
             <h4 className="d-none d-sm-inline">: 1</h4>
             <a
-              href="https://manga-shoppu.herokuapp.com/"
+              href="https://manga-shoppu.onrender.com/"
               className="mx-2 text-decoration-none text-reset"
               target="_blank"
               rel="noreferrer"
@@ -420,7 +420,7 @@ const Projects = () => {
                   />
                 </a>
                 <a
-                  href="https://manga-shoppu.herokuapp.com/"
+                  href="https://manga-shoppu.onrender.com/"
                   className="mx-2"
                   target="_blank"
                   rel="noreferrer"
