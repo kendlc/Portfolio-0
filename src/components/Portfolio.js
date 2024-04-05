@@ -10,24 +10,26 @@ const Portfolio = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
+    const loadLandingImages = async () => {
+      addImageProcess("./images/bg11.png");
+      addImageProcess("./images/circle1.png");
+      addImageProcess("./images/home1.png");
+    };
+    loadLandingImages();
     setTimeout(() => {
       setDelay(true);
     }, 500);
-    const loadBgImage = async () => {
-      addImageProcess();
-    };
-    loadBgImage();
     setTimeout(() => {
       setIsLoading(false);
     }, 1900);
   }, []);
 
-  const addImageProcess = () => {
+  const addImageProcess = (src) => {
     return new Promise((resolve, reject) => {
       let img = new Image();
       img.onload = () => resolve(img.height);
       img.onerror = reject;
-      img.src = "./images/bg11.png";
+      img.src = src;
     });
   };
 
