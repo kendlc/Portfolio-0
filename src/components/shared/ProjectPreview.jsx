@@ -101,7 +101,7 @@ const ProjectPreview = ({
       >
         <h4 className="d-none d-sm-inline">{projectNumber}</h4>
         <a
-          href="https://manga-shoppu.onrender.com/"
+          href={liveSiteLink}
           className="mx-2 text-decoration-none text-reset"
           target="_blank"
           rel="noreferrer"
