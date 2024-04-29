@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 const ProjectPreview = ({
   projectNumber,
@@ -12,40 +12,58 @@ const ProjectPreview = ({
   detailsFirst,
 }) => {
   const [showDemo, setShowDemo] = useState(false);
-  const [demoGif, setDemoGif] = useState(projectDemoGif);
 
-  const renderThumbnail = (
+  const divRef = useRef(null);
+  const divRef1 = useRef(null);
+
+  useEffect(() => {
+    const checkCenter = () => {
+      const divRect = divRef.current.getBoundingClientRect();
+      const divRect1 = divRef1.current.getBoundingClientRect();
+      const viewportHeight = window.innerHeight;
+
+      const divCenterY = divRect.top + divRect.height / 2;
+      const divCenterY1 = divRect1.top + divRect1.height / 2;
+      const viewportCenterY = viewportHeight / 2;
+
+      const threshold = 200;
+
+      const isVerticallyCentered =
+        Math.abs(divCenterY - viewportCenterY) <= threshold;
+      const isVerticallyCentered1 =
+        Math.abs(divCenterY1 - viewportCenterY) <= threshold;
+
+      setShowDemo(isVerticallyCentered || isVerticallyCentered1);
+    };
+
+    checkCenter();
+    window.addEventListener("scroll", checkCenter);
+    window.addEventListener("resize", checkCenter);
+
+    return () => {
+      window.removeEventListener("scroll", checkCenter);
+      window.removeEventListener("resize", checkCenter);
+    };
+  }, []);
+
+  const renderThumbnail = (isForMobile, divRef) => (
     <>
-      <h2 className="d-inline d-sm-none" style={{ color: "#47177F" }}>
+      <h2
+        className={isForMobile ? "d-inline d-sm-none" : "d-none"}
+        style={{ color: "#47177F" }}
+      >
         {projectNumber} {title}
       </h2>
       <div
-        className="col-sm-6 hoverImage  mb-sm-4"
-        onMouseEnter={() => {
-          setTimeout(() => {
-            setDemoGif(projectDemoGif);
-          }, 0);
-          setShowDemo(true);
-        }}
-        onMouseLeave={() => {
-          setDemoGif("");
-          setShowDemo(false);
-        }}
-        onTouchStart={() => {
-          setTimeout(() => {
-            setDemoGif(projectDemoGif);
-          }, 0);
-          setShowDemo(true);
-        }}
-        onTouchMove={() => {
-          setDemoGif("");
-          setShowDemo(false);
-        }}
+        ref={divRef}
+        className={`col-sm-6 hoverImage  mb-sm-4 ${
+          isForMobile ? "d-inline d-sm-none" : "d-none d-sm-inline"
+        }`}
         style={{ width: "636px", height: "360px" }}
       >
         {showDemo ? (
           <img
-            src={demoGif}
+            src={projectDemoGif}
             alt={title}
             draggable="false"
             className="img-fluid"
@@ -69,70 +87,73 @@ const ProjectPreview = ({
   );
 
   const renderDetails = (
-    <div
-      className={`col-sm-4 text-sm-${
-        detailsFirst ? "end" : "start"
-      } text-center`}
-      style={{
-        color: "#47177F",
-        textAlign: detailsFirst ? "right" : "left",
-        zIndex: "999",
-      }}
-    >
-      <h4 className="d-none d-sm-inline">{projectNumber}</h4>
-      <a
-        href="https://manga-shoppu.onrender.com/"
-        className="mx-2 text-decoration-none text-reset"
-        target="_blank"
-        rel="noreferrer"
+    <>
+      {renderThumbnail(true, divRef)}
+      <div
+        className={`col-sm-4 text-sm-${
+          detailsFirst ? "end" : "start"
+        } text-center`}
+        style={{
+          color: "#47177F",
+          textAlign: detailsFirst ? "right" : "left",
+          zIndex: "999",
+        }}
       >
-        <h2 className="d-none d-sm-block">{title}</h2>
-      </a>
-      <div>
-        <p
-          className={detailsFirst ? "floatTextBoxRight" : "floatTextBox"}
-          style={{
-            background: "#716FD8",
-            padding: "1rem",
-            borderRadius: "5px",
-            color: "white",
-          }}
+        <h4 className="d-none d-sm-inline">{projectNumber}</h4>
+        <a
+          href="https://manga-shoppu.onrender.com/"
+          className="mx-2 text-decoration-none text-reset"
+          target="_blank"
+          rel="noreferrer"
         >
-          {description}
-        </p>
-        <p>{subDescription}</p>
-        <p>
-          <a
-            href={gitHubLink}
-            className="mx-2"
-            target="_blank"
-            rel="noreferrer"
+          <h2 className="d-none d-sm-block">{title}</h2>
+        </a>
+        <div>
+          <p
+            className={detailsFirst ? "floatTextBoxRight" : "floatTextBox"}
+            style={{
+              background: "#716FD8",
+              padding: "1rem",
+              borderRadius: "5px",
+              color: "white",
+            }}
           >
-            <img
-              src="./images/svg/github.svg"
-              width={25}
-              alt="Github"
-              draggable="false"
-              className="linkButtons"
-            />
-          </a>
-          <a
-            href={liveSiteLink}
-            className="mx-2"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              src="./images/svg/demo.svg"
-              width={25}
-              alt="Live Site"
-              draggable="false"
-              className="linkButtons"
-            />
-          </a>
-        </p>
+            {description}
+          </p>
+          <p>{subDescription}</p>
+          <p>
+            <a
+              href={gitHubLink}
+              className="mx-2"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="./images/svg/github.svg"
+                width={25}
+                alt="Github"
+                draggable="false"
+                className="linkButtons"
+              />
+            </a>
+            <a
+              href={liveSiteLink}
+              className="mx-2"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="./images/svg/demo.svg"
+                width={25}
+                alt="Live Site"
+                draggable="false"
+                className="linkButtons"
+              />
+            </a>
+          </p>
+        </div>
       </div>
-    </div>
+    </>
   );
 
   return (
@@ -144,11 +165,11 @@ const ProjectPreview = ({
       {detailsFirst ? (
         <>
           {renderDetails}
-          {renderThumbnail}
+          {renderThumbnail(false, divRef1)}
         </>
       ) : (
         <>
-          {renderThumbnail}
+          {renderThumbnail(false, divRef1)}
           {renderDetails}
         </>
       )}

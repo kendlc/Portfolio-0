@@ -6,22 +6,25 @@ import Navigation from "./Navigation";
 import Projects from "./Projects";
 
 const Portfolio = () => {
-  const [delay, setDelay] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     const loadLandingImages = async () => {
-      addImageProcess("./images/bg11.png");
-      addImageProcess("./images/circle1.png");
-      addImageProcess("./images/home1.png");
+      setIsLoading(true);
+      await addImageProcess("./images/bg11.png");
+      await addImageProcess("./images/circle1.png");
+      await addImageProcess("./images/home1.png");
+      await addImageProcess("./images/projects/srp0.gif");
+      await addImageProcess("./images/projects/srp1.gif");
+      await addImageProcess("./images/projects/srp2.gif");
+      await addImageProcess("./images/projects/srp3.gif");
+      await addImageProcess("./images/projects/p0.png");
+      await addImageProcess("./images/projects/p1.png");
+      await addImageProcess("./images/projects/p2.png");
+      await addImageProcess("./images/projects/p3.png");
+      setIsLoading(false);
     };
     loadLandingImages();
-    setTimeout(() => {
-      setDelay(true);
-    }, 500);
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 1900);
   }, []);
 
   const addImageProcess = (src) => {
@@ -40,7 +43,7 @@ const Portfolio = () => {
           <Navigation />
           <Home />
           <About />
-          {delay && <Projects />}
+          <Projects />
           <Contact />
         </div>
       ) : (

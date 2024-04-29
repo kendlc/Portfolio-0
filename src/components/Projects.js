@@ -57,13 +57,6 @@ const Projects = () => {
   return (
     <div className="wrap">
       <div id="projects" className="container" style={{ minHeight: "100vh" }}>
-        <div style={{ display: "none" }}>
-          <img src="./images/projects/srp0.gif" alt="p" />
-          <img src="./images/projects/srp1.gif" alt="p" />
-          <img src="./images/projects/srp2.gif" alt="p" />
-          <img src="./images/projects/srp3.gif" alt="p" />
-        </div>
-
         <div className="row">
           <div className="col-sm-7" style={{ marginTop: "10vh" }}>
             <h1
@@ -74,6 +67,12 @@ const Projects = () => {
             </h1>
           </div>
         </div>
+        <img
+          src="./images/circle2.png"
+          alt="circle2"
+          draggable="false"
+          className="d-none d-sm-block circle3"
+        />
         {featuredProjects.map(
           ({
             projectNumber,
@@ -87,6 +86,7 @@ const Projects = () => {
             detailsFirst,
           }) => (
             <ProjectPreview
+              key={projectNumber}
               projectNumber={projectNumber}
               title={title}
               description={description}
