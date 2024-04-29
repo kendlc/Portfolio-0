@@ -19,6 +19,9 @@ const ProjectPreview = ({
 
   useEffect(() => {
     addImageProcess(projectDemoGif);
+  }, [projectDemoGif]);
+
+  useEffect(() => {
     const checkCenter = () => {
       const divRect = divRef.current.getBoundingClientRect();
       const divRect1 = divRef1.current.getBoundingClientRect();
