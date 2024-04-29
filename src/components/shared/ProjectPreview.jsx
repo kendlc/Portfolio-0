@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import { addImageProcess } from "../../helpers";
 
 const ProjectPreview = ({
   projectNumber,
@@ -17,6 +18,7 @@ const ProjectPreview = ({
   const divRef1 = useRef(null);
 
   useEffect(() => {
+    addImageProcess(projectDemoGif);
     const checkCenter = () => {
       const divRect = divRef.current.getBoundingClientRect();
       const divRect1 = divRef1.current.getBoundingClientRect();

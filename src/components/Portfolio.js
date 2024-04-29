@@ -4,6 +4,7 @@ import Contact from "./Contact";
 import Home from "./Home";
 import Navigation from "./Navigation";
 import Projects from "./Projects";
+import { addImageProcess } from "../helpers";
 
 const Portfolio = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -14,10 +15,6 @@ const Portfolio = () => {
       await addImageProcess("./images/bg11.png");
       await addImageProcess("./images/circle1.png");
       await addImageProcess("./images/home1.png");
-      await addImageProcess("./images/projects/srp0.gif");
-      await addImageProcess("./images/projects/srp1.gif");
-      await addImageProcess("./images/projects/srp2.gif");
-      await addImageProcess("./images/projects/srp3.gif");
       await addImageProcess("./images/projects/p0.png");
       await addImageProcess("./images/projects/p1.png");
       await addImageProcess("./images/projects/p2.png");
@@ -26,15 +23,6 @@ const Portfolio = () => {
     };
     loadLandingImages();
   }, []);
-
-  const addImageProcess = (src) => {
-    return new Promise((resolve, reject) => {
-      let img = new Image();
-      img.onload = () => resolve(img.height);
-      img.onerror = reject;
-      img.src = src;
-    });
-  };
 
   return (
     <div>
