@@ -3,7 +3,7 @@ import React from "react";
 const Home = () => {
   const bg = {
     height: `100vh`,
-    background: 'url("./images/bg11.png") no-repeat 50% 99%',
+    background: 'url("./images/bg11.webp") no-repeat 50% 99%',
     backgroundSize: "cover",
   };
 

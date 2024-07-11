@@ -12,7 +12,7 @@ const Portfolio = () => {
   useEffect(() => {
     const loadLandingImages = async () => {
       setIsLoading(true);
-      await addImageProcess("./images/bg11.png");
+      await addImageProcess("./images/bg11.webp");
       await addImageProcess("./images/circle1.png");
       await addImageProcess("./images/home1.png");
       await addImageProcess("./images/projects/p0.png");
