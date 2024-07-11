@@ -15,10 +15,10 @@ const Portfolio = () => {
       await addImageProcess("./images/bg11.webp");
       await addImageProcess("./images/circle1.png");
       await addImageProcess("./images/home1.png");
-      await addImageProcess("./images/projects/p0.png");
-      await addImageProcess("./images/projects/p1.png");
-      await addImageProcess("./images/projects/p2.png");
-      await addImageProcess("./images/projects/p3.png");
+      await addImageProcess("./images/projects/p0.webp");
+      await addImageProcess("./images/projects/p1.webp");
+      await addImageProcess("./images/projects/p2.webp");
+      await addImageProcess("./images/projects/p3.webp");
       setIsLoading(false);
     };
     loadLandingImages();
